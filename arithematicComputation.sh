@@ -15,4 +15,4 @@ for((i=1;i<5;i++))
 do
         resultArray[$i]=${dictionary[$i]}
 done
-echo ${resultArray[@]} | awk 'BEGIN{RS=" ";} {print $1}' | sort -nr
+echo ${resultArray[@]} | awk 'BEGIN{RS=" ";} {print $1}' | sort
